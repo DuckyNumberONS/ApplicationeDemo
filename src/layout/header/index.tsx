@@ -1,8 +1,16 @@
+import { useRouter } from 'next/router';
 import React from 'react';
 
 const Header = () => {
+    const router = useRouter();
+    const Login = () => {
+        router.push('/login');
+    };
+    const HomePage = () => {
+        router.push('/');
+    };
     return (
-        <div>
+        <header>
             <body
                 className="
       antialiased
@@ -27,7 +35,7 @@ const Header = () => {
         "
                     >
                         <div>
-                            <a href="#">
+                            <a href="#" onClick={HomePage}>
                                 <svg xmlns="http://www.w3.org/2000/svg" width="150" height="32.125" viewBox="0 0 150 32.125">
                                     <g id="Group_330" data-name="Group 330" transform="translate(-251.1 457.654)">
                                         <g id="Group_329" data-name="Group 329" transform="translate(251.1 -457.654)">
@@ -99,8 +107,8 @@ const Header = () => {
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="#">
-                                        Sign Up
+                                    <a className="md:p-4 py-2 block hover:text-purple-400 text-purple-500" href="#" onClick={Login}>
+                                        Login
                                     </a>
                                 </li>
                             </ul>
@@ -108,7 +116,7 @@ const Header = () => {
                     </nav>
                 </header>
             </body>
-        </div>
+        </header>
     );
 };
 export default Header;
