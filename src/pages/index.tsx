@@ -2,7 +2,8 @@ import Head from 'next/head';
 import Image from 'next/image';
 import { Inter } from '@next/font/google';
 import styles from '@/styles/Home.module.css';
-import Layout from './layout';
+import Layout from '../layout';
+import BannerSlider from '../components/slider-banner';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -24,7 +25,10 @@ export default function Home() {
       to-indigo-400
     "
             >
-                <Layout></Layout>
+                <Layout>
+                    {/* Viết từng các section vào đây */}
+                    <BannerSlider />
+                </Layout>
             </main>
         </>
     );

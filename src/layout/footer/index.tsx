@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div className="my-[75px]">
+        <footer className="my-[75px]">
             <div className="flex flex-col mx-auto mb-[75px] max-w-[1500px] h-auto">
                 <div className="flex lg:items-center lg:justify-between flex-col lg:flex-row gap-y-[45px] py-[30px] lg:py-0 px-[15px] sm:px-[30px] md:px-[40px] lg:px-[50px] xl:px-[75px] w-full h-auto lg:h-[380px] bg-white">
                     <div className="lg:w-4/12">
@@ -143,7 +143,7 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </footer>
     );
 };
 export default Footer;
