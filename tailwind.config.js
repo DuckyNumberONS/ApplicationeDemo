@@ -12,7 +12,13 @@ module.exports = {
         extend: {
             colors: {
                 violet: {
-                    deeplilac: '#764abc',
+                    zircon: '#eff0f1',
+                },
+                black: {
+                    acadia: '#0f0f0f',
+                },
+                red: {
+                    default: '#ff0000',
                 },
             },
         },
