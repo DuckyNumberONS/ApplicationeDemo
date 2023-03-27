@@ -34,3 +34,78 @@ export const bestMovies = [
         imgBackground: 'https://image.tmdb.org/t/p/original//r7Dfg9aRZ78gJsmDlCirIIlNH3d.jpg',
     },
 ];
+
+export const trendingMovies = [
+    {
+        index: 1,
+        title: 'DARLING in the FRANXX',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//rR8HgnD9tqFaSiJ69FpruHo9Gm9.jpg',
+    },
+    {
+        index: 2,
+        title: 'Asobi Asobase - workshop of fun ',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//zWE3bnCILcRpfQCsxBkMsgcEjOE.jpg',
+    },
+    {
+        index: 3,
+        title: 'Hitoribocchi no Marumaruseikatsu',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//btoTzCw3zmjRtB99g2M5Mw2GUQG.jpg',
+    },
+    {
+        index: 4,
+        title: 'Anne with an E',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//6P6tXhjT5tK3qOXzxF9OMLlG7iz.jpg',
+    },
+    {
+        index: 5,
+        title: 'The Owl House',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//zqjSex7DZn7p4dU7mMktdJ8zQV5.jpg',
+    },
+    {
+        index: 6,
+        title: 'Regular Show',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//mS5SLxMYcKfUxA0utBSR5MOAWWr.jpg',
+    },
+    {
+        index: 7,
+        title: 'Kaguya-sama: Love Is War',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//5khbC6AuNgnvnoDbjIMKCOhEtIc.jpg',
+    },
+    {
+        index: 8,
+        title: 'Demon Slayer: Kimetsu no Yaiba',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//wrCVHdkBlBWdJUZPvnJWcBRuhSY.jpg',
+    },
+    {
+        index: 9,
+        title: 'Asobi Asobase - workshop of fun',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//zWE3bnCILcRpfQCsxBkMsgcEjOE.jpg',
+    },
+    {
+        index: 10,
+        title: 'Hitoribocchi no Marumaruseikatsu',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//btoTzCw3zmjRtB99g2M5Mw2GUQG.jpg',
+    },
+    {
+        index: 11,
+        title: 'Invincible',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//yDWJYRAwMNKbIYT8ZB33qy84uzO.jpg',
+    },
+    {
+        index: 12,
+        title: 'The Owl House',
+        catory: 'movies',
+        imgThumbnail: 'https://image.tmdb.org/t/p/w500//zqjSex7DZn7p4dU7mMktdJ8zQV5.jpg',
+    },
+];

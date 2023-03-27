@@ -2,6 +2,9 @@ import Head from 'next/head';
 import { Inter } from '@next/font/google';
 import Layout from '../layout';
 import BestSeller from '@/components/best-seller';
+import TrendingMovies from '@/components/trending-movies';
+import TopRatedMovies from '@/components/top-rated-movies';
+import TrendingTv from '@/components/trending -tv';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -17,16 +20,15 @@ export default function Home() {
             <main
                 className="
       antialiased
-      bg-gradient-to-r
-      from-pink-300
-      via-purple-300
-      to-indigo-400
-      bg-violet-zircon
+      bg-black-acadia
     "
             >
                 <Layout>
                     {/* Viết từng các section vào đây */}
                     <BestSeller />
+                    <TrendingMovies />
+                    <TopRatedMovies />
+                    <TrendingTv />
                 </Layout>
             </main>
         </>

@@ -1,9 +1,13 @@
 import React from 'react';
 
-const LayoutSection: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
+interface LayoutSectionProps extends React.PropsWithChildren<{}> {
+    className?: string;
+}
+
+const LayoutSection: React.FC<LayoutSectionProps> = ({ children, className }) => {
     return (
         <>
-            <section className="relative">{children}</section>
+            <section className={`relative ${className}`}>{children}</section>
         </>
     );
 };
